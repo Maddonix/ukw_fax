@@ -1,10 +1,11 @@
-import pathlib
 import json
 import os
+import pathlib
+
+import mailparser
 import pytesseract
 from PIL import Image
 from tqdm.auto import tqdm
-import mailparser
 
 
 def export_messages(

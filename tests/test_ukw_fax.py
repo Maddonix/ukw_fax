@@ -1,6 +1,7 @@
 from ukw_fax.cli import main
-from pathlib import Path
-from ukw_fax import export_messages
+
+# from pathlib import Path
+# from ukw_fax import export_messages
 
 
 def test_main():
